@@ -38,6 +38,6 @@ scripts/ci.sh           Test, build, and load echo-service:local into Kind
 Dockerfile              Container build and runtime
 ```
 
-CI runs on pushes and pull requests. Deployment with Pulumi is a separate step.
+CI runs on every push. Deployment with Pulumi is a separate step.
 This service is intended for local use: it has no authentication, TLS, or request
 body size limit.
