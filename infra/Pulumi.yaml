@@ -1,0 +1,5 @@
+name: echo-service
+runtime: go
+description: Deploy echo to an existing local Kind cluster.
+backend:
+  url: file://~
